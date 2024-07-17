@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/BackToMenu/BackToMenuStyle.uss?fileID=7433441132597879392&amp;guid=1ca381719322ca4479f29f526c13b106&amp;type=3#BackToMenuStyle" />
+    <ui:Button text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="menu-button" class="test" />
+</ui:UXML>

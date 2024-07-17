@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/CurrentScore/CurrentScoreStyle.uss?fileID=7433441132597879392&amp;guid=5bfb144e266af194e8585225092c83aa&amp;type=3#CurrentScoreStyle" />
+    <ui:VisualElement class="container">
+        <ui:Label tabindex="-1" text="Score:" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+        <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="score-text" />
+    </ui:VisualElement>
+</ui:UXML>
