@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 [DefaultExecutionOrder(1000)]
@@ -21,5 +22,9 @@ public class BackToMenuController : MonoBehaviour {
     }
 
 
-    private void GoToMenu() {}
+    private void GoToMenu() {
+        SceneManager.LoadScene(
+            (int) SceneId.MainMenu
+        );
+    }
 }

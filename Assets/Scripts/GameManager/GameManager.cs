@@ -104,9 +104,11 @@ public class GameManager : MonoBehaviour {
                     true
                 );
 
-                // GameData.Instance.RegisterIfBestScore(
-                //     CurrentScore
-                // );
+                if (GameData.Instance != null) {
+                    GameData.Instance.RegisterIfBestScore(
+                        CurrentScore
+                    );
+                }
             }
         }
     }
