@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [DefaultExecutionOrder(1)]
 public class GameManager : MonoBehaviour {
@@ -23,6 +24,10 @@ public class GameManager : MonoBehaviour {
 
     [SerializeField]
     private GameObject endOfGameView;
+
+
+    [SerializeField]
+    private Material[] skyboxes;
 
 
     public Action<GameState> onGameStateChanged;
@@ -82,6 +87,8 @@ public class GameManager : MonoBehaviour {
 
             Initialize();
 
+            ChooseSkybox();
+
         } else {
             Destroy(
                 gameObject
@@ -113,6 +120,17 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+
+    public void ChooseSkybox() {
+        if (skyboxes.Length > 0) {
+            RenderSettings.skybox = skyboxes[
+                Random.Range(
+                    0,
+                    skyboxes.Length
+                )
+            ];
+        }
+    }
 
     public void Initialize() {
         CurrentScore = 0;
