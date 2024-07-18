@@ -202,7 +202,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementAction: {fileID: -3629586159280527992, guid: 3657f75476d928345969072723e73df1, type: 3}
-  speed: 1
+  speed: 9
+  turnSpeed: 20
+  smoothTime: 0.05
 --- !u!114 &322310125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,7 +542,7 @@ MonoBehaviour:
   m_PanelSettings: {fileID: 11400000, guid: cd9dd175fa8971540a23834576355ef8, type: 2}
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: 53831bd21265c7048a57773ecd74580c, type: 3}
-  m_SortingOrder: 0
+  m_SortingOrder: 1
 --- !u!1 &1638134665
 GameObject:
   m_ObjectHideFlags: 0
