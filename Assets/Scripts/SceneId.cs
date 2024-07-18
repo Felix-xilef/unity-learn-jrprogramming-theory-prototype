@@ -1,4 +1,4 @@
 public enum SceneId {
-    MainGame,
     MainMenu,
+    MainGame,
 }
