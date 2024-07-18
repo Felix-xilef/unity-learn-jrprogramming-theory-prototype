@@ -1,0 +1,106 @@
+VisualElement {
+}
+
+.container {
+    flex-grow: 1;
+    background-color: rgb(59, 59, 59);
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    -unity-font-style: bold;
+    font-size: 40px;
+    color: rgb(93, 220, 66);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sub-title {
+    -unity-font-style: bold;
+    font-size: 16px;
+    color: rgb(84, 112, 224);
+    margin-top: 0;
+}
+
+.action-container {
+    padding-top: 15px;
+    padding-left: 0;
+}
+
+#best-score-text {
+    -unity-text-align: upper-center;
+    -unity-font-style: bold-and-italic;
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: rgb(201, 71, 71);
+}
+
+#username-text {
+    min-width: 180px;
+    color: rgb(95, 95, 95);
+}
+
+#unity-text-input {
+    margin-left: 0;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(95, 95, 95);
+    border-right-color: rgb(95, 95, 95);
+    border-top-color: rgb(95, 95, 95);
+    border-bottom-color: rgb(95, 95, 95);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#unity-text-input:hover {
+    border-left-color: rgb(136, 73, 211);
+    border-right-color: rgb(136, 73, 211);
+    border-top-color: rgb(136, 73, 211);
+    border-bottom-color: rgb(136, 73, 211);
+}
+
+.action-button {
+    -unity-font-style: bold;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.action-button:hover {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#start-game-button {
+    color: rgb(44, 149, 131);
+    border-left-color: rgb(44, 150, 132);
+    border-right-color: rgb(44, 150, 132);
+    border-top-color: rgb(44, 150, 132);
+    border-bottom-color: rgb(44, 150, 132);
+    background-color: rgb(174, 243, 232);
+}
+
+#exit-button {
+    color: rgb(157, 71, 20);
+    border-left-color: rgb(157, 71, 20);
+    border-right-color: rgb(157, 71, 20);
+    border-top-color: rgb(157, 71, 20);
+    border-bottom-color: rgb(157, 71, 20);
+    background-color: rgb(228, 181, 153);
+}

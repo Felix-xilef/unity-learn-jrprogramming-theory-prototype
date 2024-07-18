@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=ba4c3ed973fae154cbeed199fc8b8d75&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement class="container">
+        <ui:Label tabindex="-1" text="Andorinha Faminta!" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+        <ui:Label tabindex="-1" text="The Hungry Swallow" parse-escape-sequences="true" display-tooltip-when-elided="true" class="sub-title" />
+        <ui:GroupBox class="action-container">
+            <ui:Label tabindex="-1" text="Best Score" parse-escape-sequences="true" display-tooltip-when-elided="true" name="best-score-text" />
+            <ui:TextField picking-mode="Ignore" value="Username" name="username-text" />
+            <ui:Button text="Start Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="start-game-button" class="action-button" />
+            <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-button" class="action-button" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>
